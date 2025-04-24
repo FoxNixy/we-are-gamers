@@ -1,0 +1,51 @@
+---
+import { useAuthStore } from "../react/features/auth/stores/authStore";
+import { UserSessionPanel } from "../react/features/auth/components/UserSessionPanel";
+---
+
+<header class="bg-neutral-800 p-1.5 px-12">
+  <div class="max-w-6xl flex items-center justify-between mx-auto">
+    <figure
+      class="text-5xl font-bold text-blue-500"
+      aria-label="We Are Gamers Logo"
+    >
+      <a href="/"> WG </a>
+    </figure>
+
+    <nav
+      class="flex items-center gap-1.5"
+      role="navigation"
+      aria-label="Main Navigation"
+    >
+      <div>
+        <a
+          class="bg-neutral-700 py-2 px-4 rounded-md hover:bg-neutral-600 transition duration-150 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          href="/"
+          aria-label="Ir a la página de inicio">Inicio</a
+        >
+        <a
+          class="bg-neutral-700 py-2 px-4 rounded-md hover:bg-neutral-600 transition duration-150 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          href="/contacto"
+          aria-label="Ir a la página de contacto">Contacto</a
+        >
+        <a
+          class="bg-neutral-700 py-2 px-4 rounded-md hover:bg-neutral-600 transition duration-150 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          href="/sobre-nosotros"
+          aria-label="Ir a la página sobre nosotros">Sobre Nosotros</a
+        >
+        <a
+          class="bg-neutral-700 py-2 px-4 rounded-md hover:bg-neutral-600 transition duration-150 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          href="/productos"
+          aria-label="Ir a la página sobre nosotros">Productos</a
+        >
+        <a
+          class="bg-neutral-700 py-2 px-4 rounded-md hover:bg-neutral-600 transition duration-150 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          href="/ayuda"
+          aria-label="Ir a la página sobre nosotros">Ayuda</a
+        >
+      </div>
+      <hr class="mx-4 border border-neutral-400 py-4" />
+      <UserSessionPanel client:load />
+    </nav>
+  </div>
+</header>

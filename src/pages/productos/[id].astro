@@ -1,0 +1,18 @@
+---
+export const prerender = false;
+
+import Layout from "../../layouts/Layout.astro";
+import { EditForm } from "../../react/features/components/form/EditForm";
+
+const { params } = Astro;
+---
+
+<Layout>
+  <section
+    class="max-w-md mx-auto mt-10 bg-gray-800 text-white p-6 rounded-xl shadow-lg"
+  >
+    <h2 class="text-2xl font-semibold text-center mb-6">Editar Producto</h2>
+
+    <EditForm client:load productId={params.id} />
+  </section>
+</Layout>

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "1",
+    "title": "PlayStation 5 Edición con Disco",
+    "price": 499.99,
+    "image": "https://hiraoka.com.pe/media/catalog/product/p/s/ps5-digital-edition-front-with-dualsense.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=700&canvas=700:560",
+    "category": "Consolas",
+    "description": "Consola de juegos en 4K con unidad Blu-ray.",
+    "specs": {
+      "almacenamiento": "825GB SSD",
+      "resolución": "8K HDR"
+    }
+  },
+  {
+    "id": "2",
+    "title": "Xbox Series X",
+    "price": 499.99,
+    "image": "https://exitocol.vtexassets.com/arquivos/ids/7234186/consola-xbox-series-x-1tb-microsoft.jpg?v=637532554326130000",
+    "category": "Consolas",
+    "description": "Consola de juegos de alto rendimiento con una GPU potente.",
+    "specs": {
+      "almacenamiento": "1TB SSD",
+      "resolución": "8K HDR"
+    }
+  },
+  {
+    "id": "3",
+    "title": "Nintendo Switch OLED",
+    "price": 349.99,
+    "image": "https://foncrea.com/cdn/shop/files/NintendoSwitchOled3.png?v=1721874471",
+    "category": "Consolas",
+    "description": "Consola de juegos híbrida con una vibrante pantalla OLED.",
+    "specs": {
+      "almacenamiento": "64GB",
+      "resolución": "720p en portátil / 1080p en modo dock"
+    }
+  },
+  {
+    "id": "4",
+    "title": "Alienware Aurora R8",
+    "price": 2199.99,
+    "image": "https://m.media-amazon.com/images/I/710Ft9ECH1L.jpg",
+    "category": "PCs de Juego",
+    "description": "Desktop de juego de gama alta con un rendimiento potente.",
+    "specs": {
+      "almacenamiento": "1TB NVMe SSD",
+      "resolución": "Soporte 4K"
+    }
+  },
+  {
+    "id": "5",
+    "title": "Razer Blade 15",
+    "price": 1999.99,
+    "image": "https://m.media-amazon.com/images/I/71kcJxMggRL.jpg",
+    "category": "Laptops de Juego",
+    "description": "Laptop de juego elegante con un rendimiento gráfico de primera clase.",
+    "specs": {
+      "almacenamiento": "512GB SSD",
+      "resolución": "Pantalla OLED 4K"
+    }
+  },
+  {
+    "id": "6",
+    "title": "MSI GE76 Raider",
+    "price": 1799.99,
+    "image": "https://m.media-amazon.com/images/I/71Ki7Jjys9L.jpg",
+    "category": "Laptops de Juego",
+    "description": "Laptop de juego potente diseñada para alto rendimiento.",
+    "specs": {
+      "almacenamiento": "1TB SSD",
+      "resolución": "Pantalla de 144Hz"
+    }
+  },
+  {
+    "id": "7",
+    "title": "Logitech G502 Hero",
+    "price": 49.99,
+    "image": "https://www.alkosto.com/medias/097855141996-001-750Wx750H?context=bWFzdGVyfGltYWdlc3w2MjMxN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd1l5OW9ZMlV2T1RBMk5qQXdNVFUyTXpZM09DNXFjR2N8NDY3ZTBkNWMxYmFiNzYxMTliNWFmN2Y4Y2U4MGYwZjgzMmU2NjIxZTg4ODg4NzcwNDdkZGEyNmE4YjA5MjE1NQ",
+    "category": "Accesorios de Juego",
+    "description": "Ratón de juego de alta precisión con DPI personalizable.",
+    "specs": {
+      "DPI": "16000",
+      "botones": "11"
+    }
+  },
+  {
+    "id": "8",
+    "title": "Corsair K95 RGB Platinum",
+    "price": 199.99,
+    "image": "https://http2.mlstatic.com/D_NQ_NP_767780-MCO76246763617_052024-O.webp",
+    "category": "Accesorios de Juego",
+    "description": "Teclado mecánico con iluminación RGB personalizable.",
+    "specs": {
+      "interruptor": "Cherry MX Speed",
+      "retroiluminación": "RGB"
+    }
+  },
+  {
+    "id": "9",
+    "title": "Razer Nari Ultimate",
+    "price": 159.99,
+    "image": "https://http2.mlstatic.com/D_NQ_NP_889734-MLA82151500066_022025-O.webp",
+    "category": "Accesorios de Juego",
+    "description": "Auriculares inalámbricos para juegos con retroalimentación háptica.",
+    "specs": {
+      "audio": "7.1 Surround",
+      "batería": "Hasta 20 horas"
+    }
+  },
+  {
+    "id": "10",
+    "title": "HyperX Cloud II",
+    "price": 99.99,
+    "image": "https://m.media-amazon.com/images/I/61e0+8QzVBL.jpg",
+    "category": "Accesorios de Juego",
+    "description": "Auriculares cómodos con sonido envolvente virtual 7.1.",
+    "specs": {
+      "audio": "Controladores de 53mm",
+      "micrófono": "Desmontable"
+    }
+  },
+  {
+    "id": "11",
+    "title": "Samsung Odyssey G7",
+    "price": 699.99,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/es/lc27g73tqsrxen/gallery/es-lc27g73tqsux-330514-lc27g73tqsrxen-thumb-457251682",
+    "category": "Monitores",
+    "description": "Monitor de juegos curvo QHD de 27 pulgadas con alta tasa de refresco.",
+    "specs": {
+      "tasa_de_refresco": "240Hz",
+      "tiempo_de_respuesta": "1ms"
+    }
+  },
+  {
+    "id": "12",
+    "title": "LG UltraGear 27GN950",
+    "price": 799.99,
+    "image": "https://www.lg.com/content/dam/channel/wcms/es/images/monitores/27gn950-b_aeu_eees_es_c/27GN950-01.jpg",
+    "category": "Monitores",
+    "description": "Monitor de juegos 4K con una alta tasa de refresco.",
+    "specs": {
+      "tasa_de_refresco": "144Hz",
+      "tiempo_de_respuesta": "1ms"
+    }
+  },
+  {
+    "id": "13",
+    "title": "Asus ROG Swift PG259QN",
+    "price": 699.99,
+    "image": "https://dlcdnwebimgs.asus.com/gain/A5F4A546-2784-48CE-989A-56CA51CCB6C8/w717/h525",
+    "category": "Monitores",
+    "description": "Monitor de juegos con alta tasa de refresco diseñado para juegos competitivos.",
+    "specs": {
+      "tasa_de_refresco": "360Hz",
+      "tiempo_de_respuesta": "1ms"
+    }
+  },
+  {
+    "id": "14",
+    "title": "Intel Core i9-12900K",
+    "price": 589.99,
+    "image": "https://http2.mlstatic.com/D_NQ_NP_688307-MLA51801287458_102022-O.webp",
+    "category": "Componentes",
+    "description": "CPU de alto rendimiento para juegos y multitarea.",
+    "specs": {
+      "núcleos": "16",
+      "hilos": "24"
+    }
+  },
+  {
+    "id": "15",
+    "title": "AMD Ryzen 9 5950X",
+    "price": 799.99,
+    "image": "https://m.media-amazon.com/images/I/61ISSSA+x+L.jpg",
+    "category": "Componentes",
+    "description": "Procesador de gama alta para juegos intensivos y creación de contenido.",
+    "specs": {
+      "núcleos": "16",
+      "hilos": "32"
+    }
+  },
+  {
+    "id": "16",
+    "title": "NVIDIA GeForce RTX 3080",
+    "price": 699.99,
+    "image": "https://images-cdn.ubuy.com.co/63512259f1872b6e8e014ad3-nvidia-geforce-rtx-3080-founders-edition.jpg",
+    "category": "Componentes",
+    "description": "GPU potente que ofrece un rendimiento excepcional en juegos de gama alta.",
+    "specs": {
+      "memoria": "10GB GDDR6X",
+      "ray_tracing": "Sí"
+    }
+  },
+  {
+    "id": "17",
+    "title": "AMD Radeon RX 6800 XT",
+    "price": 649.99,
+    "image": "https://tecnonacho.com/wp-content/uploads/2024/12/imagen_2024-12-23_123954257.jpg",
+    "category": "Componentes",
+    "description": "Tarjeta gráfica de alto rendimiento con funciones avanzadas.",
+    "specs": {
+      "memoria": "16GB GDDR6",
+      "ray_tracing": "Sí"
+    }
+  },
+  {
+    "id": "18",
+    "title": "Seagate FireCuda Gaming SSD",
+    "price": 149.99,
+    "image": "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/products/gaming-drive/pc-gaming/_shared/images/firecuda-gaming-ssd-hero-banner-product-image.png",
+    "category": "Almacenamiento",
+    "description": "SSD externo portátil optimizado para el rendimiento en juegos.",
+    "specs": {
+      "capacidad": "1TB",
+      "interfaz": "USB 3.2"
+    }
+  },
+  {
+    "id": "19",
+    "title": "Samsung 970 EVO Plus",
+    "price": 129.99,
+    "image": "https://m.media-amazon.com/images/I/71OYNmVRFhL.jpg",
+    "category": "Almacenamiento",
+    "description": "SSD NVMe de alto rendimiento para tiempos de carga más rápidos.",
+    "specs": {
+      "capacidad": "1TB",
+      "interfaz": "NVMe"
+    }
+  },
+  {
+    "id": "20",
+    "title": "Elgato Stream Deck",
+    "price": 149.99,
+    "image": "https://lasus.com.co/152334-large_default/el-gato-stream-deck-xl-control-y-optimizacion-para-creadores-de-contenido.jpg",
+    "category": "Equipo de Streaming",
+    "description": "Panel de control personalizable diseñado para streamers.",
+    "specs": {
+      "teclas": "15 teclas LCD",
+      "conectividad": "USB"
+    }
+  },
+  {
+    "id": "21",
+    "title": "Blue Yeti Micrófono USB",
+    "price": 129.99,
+    "image": "https://m.media-amazon.com/images/I/61egnO8q6ZL.jpg",
+    "category": "Audio",
+    "description": "Micrófono USB popular ideal para juegos y streaming.",
+    "specs": {
+      "patrón_de_captación": "Cardioide",
+      "respuesta_de_frecuencia": "20Hz-20kHz"
+    }
+  },
+  {
+    "id": "22",
+    "title": "Logitech C920 HD Pro Webcam",
+    "price": 79.99,
+    "image": "https://resource.logitech.com/w_800,c_lpad,ar_1:1,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/webcams/c920/gallery/c920-gallery-1.png?v=1",
+    "category": "Equipo de Streaming",
+    "description": "Webcam de alta calidad para streaming y videoconferencias.",
+    "specs": {
+      "resolución": "1080p",
+      "enfoque_automático": "Sí"
+    }
+  },
+  {
+    "id": "23",
+    "title": "Razer BlackShark V2 Pro",
+    "price": 179.99,
+    "image": "https://m.media-amazon.com/images/I/71LXi404OOL.jpg",
+    "category": "Accesorios de Juego",
+    "description": "Auriculares inalámbricos para juegos con calidad de sonido envolvente.",
+    "specs": {
+      "audio": "THX Spatial Audio",
+      "batería": "Hasta 20 horas"
+    }
+  },
+  {
+    "id": "24",
+    "title": "Corsair HS70 Wireless",
+    "price": 99.99,
+    "image": "https://http2.mlstatic.com/D_NQ_NP_705177-MLU77632578545_072024-O.webp",
+    "category": "Accesorios de Juego",
+    "description": "Auriculares inalámbricos que ofrecen excelente sonido y comodidad.",
+    "specs": {
+      "audio": "Sonido envolvente",
+      "batería": "Hasta 16 horas"
+    }
+  },
+  {
+    "id": "25",
+    "title": "SteelSeries Arctis 7",
+    "price": 149.99,
+    "image": "https://http2.mlstatic.com/D_NQ_NP_667337-MLA41053922048_032020-O.webp",
+    "category": "Accesorios de Juego",
+    "description": "Auriculares inalámbricos con larga duración de batería y audio claro.",
+    "specs": {
+      "duración_de_la_batería": "40 horas",
+      "conectividad": "Inalámbrica"
+    }
+  },
+  {
+    "id": "26",
+    "title": "AOC 24G2",
+    "price": 199.99,
+    "image": "https://pcmartcolombia.com/storage/2023/03/asset-ziriir-big.png",
+    "category": "Monitores",
+    "description": "Monitor de juegos de 24 pulgadas con alta tasa de refresco y bajo tiempo de respuesta.",
+    "specs": {
+      "tasa_de_refresco": "144Hz",
+      "tiempo_de_respuesta": "1ms"
+    }
+  },
+  {
+    "id": "27",
+    "title": "Gigabyte Aorus 15P",
+    "price": 1499.99,
+    "image": "https://static.gigabyte.com/StaticFile/Image/Global/26281c5b56d058036349ce1c8e62955a/Product/28109/Png",
+    "category": "Laptops de Juego",
+    "description": "Laptop de juego de alto rendimiento con una GPU potente.",
+    "specs": {
+      "almacenamiento": "512GB SSD",
+      "resolución": "15.6 pulgadas FHD"
+    }
+  },
+  {
+    "id": "28",
+    "title": "Razer Tomahawk V2",
+    "price": 299.99,
+    "image": "https://www.quadrastores.com/uploads/product_image/product_5925_1.jpg",
+    "category": "Cajas para PC",
+    "description": "Caja de PC modular diseñada para construcciones de juego de alto rendimiento.",
+    "specs": {
+      "material": "Vidrio Templado",
+      "diseño": "Modular"
+    }
+  },
+  {
+    "id": "29",
+    "title": "NZXT H510 Elite",
+    "price": 149.99,
+    "image": "https://http2.mlstatic.com/D_NQ_NP_758939-CBT78156962026_082024-O.webp",
+    "category": "Cajas para PC",
+    "description": "Caja mid-tower elegante con excelente gestión de cables.",
+    "specs": {
+      "material": "Vidrio Templado",
+      "características": "Iluminación RGB"
+    }
+  },
+  {
+    "id": "30",
+    "title": "Corsair iCUE 4000X RGB",
+    "price": 129.99,
+    "image": "https://m.media-amazon.com/images/I/61fal7R6HbL.jpg",
+    "category": "Cajas para PC",
+    "description": "Caja mid-tower con iluminación RGB personalizable y flujo de aire óptimo.",
+    "specs": {
+      "material": "Vidrio Templado",
+      "ventiladores": "Ventiladores RGB"
+    }
+  }
+]

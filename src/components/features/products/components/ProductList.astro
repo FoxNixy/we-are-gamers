@@ -1,0 +1,102 @@
+---
+import Layout from "../../../../layouts/Layout.astro";
+import products from "../../../../mocks/products.json";
+---
+
+<Layout>
+  <section class="max-w-6xl mx-auto">
+    <h1 class="text-5xl font-semibold text-center mb-12">Productos</h1>
+
+    <div class="grid gap-4 list mx-auto">
+      {
+        products.map((producto) => (
+          <div class="border border-zinc-500 shadow-lg rounded-lg overflow-hidden">
+            <figure class="w-full bg-white relative">
+              <img
+                alt=""
+                src={producto.image}
+                class="w-full object-contain aspect-[16/9] block"
+              />
+              <div
+                class={`absolute bottom-1 left-1 py-0.5 px-2 text-sm font-medium rounded max-w-fit ${
+                  producto.category === "Accesorios de Juego"
+                    ? "bg-blue-600"
+                    : producto.category === "PCs de Juego"
+                      ? "bg-green-700"
+                      : producto.category === "Laptops de Juego"
+                        ? "bg-indigo-600"
+                        : producto.category === "Componentes"
+                          ? "bg-red-600"
+                          : producto.category === "Cajas para PC"
+                            ? "bg-sky-700"
+                            : producto.category === "Consolas"
+                              ? "bg-slate-500"
+                              : producto.category === "Monitores"
+                                ? "bg-emerald-700"
+                                : "bg-black"
+                }`}
+              >
+                {producto.category}
+              </div>
+            </figure>
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">{producto.title}</h3>
+              <p class="text-white/70 text-sm">{producto.description}</p>
+              <p class="text-xl font-bold mt-2 text-blue-200">
+                ${producto.price}
+              </p>
+
+              <button class="py-2.5 px-5 rounded-md bg-blue-500 inline-block mt-3 hover:cursor-pointer hover:bg-blue-500/75 duration-150 transition">
+                Comprar
+              </button>
+            </div>
+          </div>
+          // <div class="border border-zinc-500 size-full rounded-3xl overflow-hidden">
+          //   <figure class="w-full bg-white relative">
+          //     <img
+          //       alt=""
+          //       src={product.image}
+          //       class="w-full object-contain aspect-[16/9] block"
+          //     />
+          //     <div
+          //       class={`absolute bottom-1 left-1 py-0.5 px-2 text-sm font-medium rounded max-w-fit ${
+          //         product.category === "Accesorios de Juego"
+          //           ? "bg-blue-600"
+          //           : product.category === "PCs de Juego"
+          //             ? "bg-green-700"
+          //             : product.category === "Laptops de Juego"
+          //               ? "bg-indigo-600"
+          //               : product.category === "Componentes"
+          //                 ? "bg-red-600"
+          //                 : product.category === "Cajas para PC"
+          //                   ? "bg-sky-700"
+          //                   : product.category === "Consolas"
+          //                     ? "bg-slate-500"
+          //                     : product.category === "Monitores"
+          //                       ? "bg-emerald-700"
+          //                       : "bg-black"
+          //       }`}
+          //     >
+          //       {product.category}
+          //     </div>
+          //   </figure>
+          //   <div class="p-6">
+          //     <p class="font-medium">{product.title}</p>
+          //     <p class="text-white/70">$ {product.price}</p>
+
+          //     <button class="py-2.5 px-5 rounded-md bg-blue-500 inline-block mt-3 hover:cursor-pointer hover:bg-blue-500/75 duration-150 transition">
+          //       Comprar
+          //     </button>
+          //   </div>
+          // </div>
+        ))
+      }
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .list {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+</style>

@@ -1,0 +1,120 @@
+---
+import AtSign from "../components/icons/AtSign.astro";
+import YouTube from "../components/icons/Youtube.astro";
+import Facebook from "../components/icons/Facebook.astro";
+import Instagram from "../components/icons/Instagram.astro";
+import Mail from "../components/icons/Mail.astro";
+import MapPin from "../components/icons/MapPin.astro";
+import Phone from "../components/icons/Phone.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <h1 class="text-5xl font-semibold text-center mb-12">Contacto</h1>
+
+  <section class="max-w-4xl flex gap-8 p-8 rounded-2xl mx-auto bg-neutral-800">
+    <div class="flex-1">
+      <header class="mb-8">
+        <h1 class="text-3xl font-semibold mb-4">Contáctanos</h1>
+        <p class="text-neutral-300">
+          Contáctanos a través de nuestro formulario, correo electrónico o
+          teléfono. Nuestro equipo de atención al cliente está listo para
+          ayudarte
+        </p>
+      </header>
+      <address class="flex flex-col gap-4">
+        <article class="flex items-center gap-2.5">
+          <Phone className="text-blue-400 min-w-7 min-h-7 size-7" />
+          <span> +57 300 5408510 </span>
+        </article>
+        <article class="flex items-center gap-2.5">
+          <MapPin className="text-blue-400 min-w-7 min-h-7 size-7" />
+          <span>
+            Contadora 1 Manzana 42a lote 2, Provincia de Cartagena, Bolívar
+          </span>
+        </article>
+        <article class="flex items-center gap-2.5">
+          <Mail className="text-blue-400 min-w-7 min-h-7 size-7" />
+          <span>wearegamers@gmail.com</span>
+        </article>
+        <article class="flex items-center gap-2.5">
+          <AtSign className="text-blue-400 min-w-7 min-h-7 size-7" />
+          <div class="flex gap-2.5 items-center">
+            <!-- Facebook -->
+            <a
+              href="#"
+              class="hover:scale-120 transition-all duration-150 bg-neutral-700 border border-neutral-600 text-white p-2.5 rounded-full"
+              aria-label="Ir a nuestra página de Facebook"
+            >
+              <Facebook aria-hidden="true" />
+            </a>
+
+            <!-- Instagram -->
+            <a
+              href="#"
+              class="hover:scale-120 transition-all duration-150 bg-neutral-700 border border-neutral-600 text-white p-2.5 rounded-full"
+              aria-label="Síguenos en Instagram"
+            >
+              <Instagram aria-hidden="true" />
+            </a>
+
+            <!-- YouTube -->
+            <a
+              href="#"
+              class="hover:scale-120 transition-all duration-150 bg-neutral-700 border border-neutral-600 text-white p-2.5 rounded-full"
+              aria-label="Mira nuestros videos en YouTube"
+            >
+              <YouTube aria-hidden="true" />
+            </a>
+          </div>
+        </article>
+      </address>
+    </div>
+    <div class="flex-1">
+      <form action="">
+        <fieldset class="flex flex-col gap-4">
+          <div class="flex flex-col gap-2">
+            <label for="name" class="text-neutral-400 text-xs font-bold">
+              NOMBRE
+            </label>
+            <input
+              type="text"
+              name=""
+              id="name"
+              class="p-2.5 rounded outline-none bg-neutral-700"
+            />
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <label for="mail" class="text-neutral-400 text-xs font-bold">
+              EMAIL
+            </label>
+            <input
+              type="text"
+              name=""
+              id="mail"
+              class="p-2.5 rounded outline-none bg-neutral-700"
+            />
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <label for="message" class="text-neutral-400 text-xs font-bold">
+              MENSAJE
+            </label>
+            <textarea
+              name=""
+              id="message"
+              class="resize-none min-h-20 max-h-32 p-2.5 rounded outline-none bg-neutral-700"
+            ></textarea>
+          </div>
+
+          <button
+            class="bg-blue-500 font-medium p-3 rounded hover:cursor-pointer hover:bg-blue-500/75 transition duration-100"
+          >
+            Enviar
+          </button>
+        </fieldset>
+      </form>
+    </div>
+  </section>
+</Layout>

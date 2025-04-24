@@ -1,0 +1,92 @@
+---
+import Welcome from "../components/Welcome.astro";
+import Layout from "../layouts/Layout.astro";
+import productos from "../mocks/products.json";
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const destacados = productos.sort((a, b) => b.price - a.price).slice(0, 4);
+
+// Selecciona las últimas novedades (últimos 4 productos del JSON)
+const novedades = productos.slice(-4);
+---
+
+<Layout>
+  <section
+    class="mx-auto max-w-6xl min-h-[500px] place-content-center text-center flex flex-col items-center gap-5 relative p-20 rounded-lg overflow-hidden"
+  >
+    <img
+      src="https://pcoutlet.com/wp-content/uploads/onur-binay-auf3GwpVaOM-unsplash-1-scaled-11.jpg"
+      alt=""
+      class="absolute top-0 left-0 size-full -z-50 object-cover brightness-75"
+    />
+
+    <div class="max-w-prose">
+      <h1 class="text-5xl font-bold text-balance">
+        Bienvenido a We Are Gamers
+      </h1>
+
+      <p class="text-balance text-neutral-300 mt-3">
+        La tienda de tecnología con los mejores productos del mercado.
+      </p>
+
+      <nav class="max-w-fit mx-auto mt-5">
+        <a
+          href="/productos"
+          class="block bg-blue-500 max-w-fit font-medium p-3 rounded-md transition duration-150 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          aria-label="Ver el catálogo completo de productos"
+        >
+          Ver catálogo
+        </a>
+      </nav>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-6 py-12">
+    <h2 class="text-3xl font-bold text-center">Productos Destacados</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+      {
+        destacados.map((producto) => (
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden p-4">
+            <img
+              src={producto.image}
+              alt={producto.title}
+              class="w-full h-48 object-cover"
+            />
+            <h3 class="text-lg font-semibold mt-4">{producto.title}</h3>
+            <p class="text-gray-600 text-sm">{producto.description}</p>
+            <p class="text-xl font-bold mt-2 text-indigo-600">
+              ${producto.price}
+            </p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-6 py-12">
+    <h2 class="text-3xl font-bold text-center">Novedades</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+      {
+        novedades.map((producto) => (
+          <div class="border border-zinc-500 shadow-lg rounded-lg overflow-hidden">
+            <figure class="w-full bg-white relative">
+              <img
+                alt=""
+                src={producto.image}
+                class="w-full object-contain aspect-[16/9] block"
+              />
+            </figure>
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">{producto.title}</h3>
+              <p class="text-white/70 text-sm">{producto.description}</p>
+              <p class="text-xl font-bold mt-2 text-blue-200">
+                ${producto.price}
+              </p>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+</Layout>
